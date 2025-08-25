@@ -45,7 +45,7 @@
 
 <body class="service-details-page">
 
-	<header id="header" class="header sticky-top">
+		<header id="header" class="header sticky-top">
 
 		<div class="topbar d-flex align-items-center">
 			<div
@@ -74,7 +74,7 @@
 				<nav id="navmenu" class="navmenu">
 					<ul>
 						<li>
-							<a href="#hero" class="active">Початкова</a>
+							<a href="index.html" class="active">Початкова</a>
 						</li>
 						<li>
 							<a href="#about">Про компанію</a>
@@ -83,28 +83,42 @@
 							<a href="#services">Послуги</a>
 						</li>
 						<li>
-							<a href="#departments">Відстрочки</a>
+							<a href="#contact">Основні Відділення</a>
 						</li>
-						<li>
-							<a href="#doctors">Офіси</a>
+						<!--    <li><a href="#doctors">Doctors</a></li> -->
+						<li class="dropdown">
+							<a href="#">
+								<span>Читати</span>
+								<i class="bi bi-chevron-down toggle-dropdown"></i>
+							</a>
+							<ul>
+								<li>
+									<a href="service-details1.html">Спеціалізація</a>
+								</li>
+									<li class="dropdown">
+									<a href="#testimonials">
+										<span>Відгуки</span>
+										<i class="bi bi-chevron-down toggle-dropdown"></i>
+									</a>
+									<ul>
+										<li>
+											<a href="#testimonials">Читати відгук</a>
+										</li>
+										<li>
+											<a href="Comentarry.html">Написати відгук</a>
+										</li>
+									
+									</ul>
+								</li>
+								<li>
+									<a href="service-details.html">Гарантовані відстрочки</a>
+								</li>
+								<li>
+									<a href="service-details2.html">Документи</a>
+								</li>
+							
+							</ul>
 						</li>
-						<!--  <li class="dropdown"><a href="#"><span>Інформація</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">ЗУ Про Мобілізацію</a></li>
-                <li class="dropdown"><a href="#"><span>Наші рішення</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                  <ul>
-                    <li><a href="#">Рішення 1</a></li>
-                    <li><a href="#">Рішення 2</a></li>
-                    <li><a href="#">Рішення 3</a></li>
-                    <li><a href="#">Рішення 4</a></li>
-                    <li><a href="#">Рішення 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Постанова 760</a></li>
-                <li><a href="#">ЗУ Про Військовий Обовязок</a></li>
-                <li><a href="#">Конституція</a></li>
-              </ul>
-            </li> -->
 						<li>
 							<a href="#contact">Контакти</a>
 						</li>
@@ -112,7 +126,8 @@
 					<i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 				</nav>
 
-				<a class="cta-btn" href="" id="openModalBtn">Даю Руку</a>
+				<a class="cta-btn" href="" id="openModalBtn">Дати руку</a>
+
 
 				<!-- - MODAL WINDOW -->
 
@@ -137,6 +152,7 @@
 				</div>
 
 				<!--    -->
+
 
 			</div>
 
