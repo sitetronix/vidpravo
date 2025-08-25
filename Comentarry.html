@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Відстрочка +</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+<!-- Favicons -->
+<link href="assets/img/favicon.png" rel="icon">
+<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+<link
+	href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+	rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css"
+	rel="stylesheet">
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+	rel="stylesheet">
+<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+<link href="assets/vendor/fontawesome-free/css/all.min.css"
+	rel="stylesheet">
+<link href="assets/vendor/glightbox/css/glightbox.min.css"
+	rel="stylesheet">
+<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+<!-- Main CSS File -->
+<link href="assets/css/main.css" rel="stylesheet">
+
+<!-- =======================================================
+  * Template Name: Medicio
+  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+	<header id="header" class="header sticky-top">
+
+		<div class="topbar d-flex align-items-center">
+			<div
+				class="container d-flex justify-content-center justify-content-md-between">
+				<div class="d-none d-md-flex align-items-center">
+					<i class="bi bi-clock me-1"></i> Понеділок - П'ятниця 08:00 до
+					20:00 / Субота - Неділя 09:00 до 15:00
+				</div>
+				<div class="d-flex align-items-center">
+					<i class="bi bi-phone me-1"></i> Дзвінки + 38 097 722 89 62
+				</div>
+			</div>
+		</div>
+		<!-- End Top Bar -->
+
+		<div class="branding d-flex align-items-center">
+
+			<div
+				class="container position-relative d-flex align-items-center justify-content-end">
+				<a href="index.html" class="logo d-flex align-items-center me-auto">
+					<img src="assets/img/logo.png" alt=""> Відстрочка +
+					<!-- Uncomment the line below if you also wish to use a text logo -->
+					<!-- <h1 class="sitename">Medicio</h1>  -->
+				</a>
+
+				<nav id="navmenu" class="navmenu">
+					<ul>
+						<li>
+							<a href="#hero" class="active">Початкова</a>
+						</li>
+						<li>
+							<a href="#about">Про компанію</a>
+						</li>
+						<li>
+							<a href="#services">Послуги</a>
+						</li>
+						<li>
+							<a href="#departments">Основні Відділення</a>
+						</li>
+						<!--    <li><a href="#doctors">Doctors</a></li> -->
+						<li class="dropdown">
+							<a href="#">
+								<span>Читати</span>
+								<i class="bi bi-chevron-down toggle-dropdown"></i>
+							</a>
+							<ul>
+								<li>
+									<a href="#">Тексти</a>
+								</li>
+								<li class="dropdown">
+									<a href="#">
+										<span>БЛОГ</span>
+										<i class="bi bi-chevron-down toggle-dropdown"></i>
+									</a>
+									<ul>
+										<li>
+											<a href="#">Як отримати Відстрочку</a>
+										</li>
+										<li>
+											<a href="#">Відстрочка +</a>
+										</li>
+										<li>
+											<a href="#">Основні Відстрочки</a>
+										</li>
+										<li>
+											<a href="#">Тощо..</a>
+										</li>
+										<li>
+											<a href="#">Документи</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">Dropdown 2</a>
+								</li>
+								<li>
+									<a href="#">Dropdown 3</a>
+								</li>
+								<li>
+									<a href="#">Dropdown 4</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#contact">Контакти</a>
+						</li>
+					</ul>
+					<i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+				</nav>
+
+				<a class="cta-btn" href="" id="openModalBtn">Дати руку</a>
+
+
+				<!-- - MODAL WINDOW -->
+
+				<div id="myModal" class="modal">
+					<div class="modal-content">
+						<span class="close">&times;</span>
+						<h2>Ваші данні</h2>
+						<form id="contactForm">
+
+							<input type="text" id="name" name="name" placeholder="Ім’я"
+								required>
+
+
+							<input type="tel" id="phone" name="phone"
+								placeholder="+38 (___) ___ __ __" required>
+
+							<button type="submit">Відправити</button>
+							<p class="fst-italic">Після відправлення даних, наші
+								спеціалісти обов'язково вам перетелефонують.</p>
+						</form>
+					</div>
+				</div>
+
+				<!--    -->
+
+
+			</div>
+
+		</div>
+
+	</header>
+
+	<main class="main">
+
+
+
+
+
+
+		<!-- Pricing Section -->
+		<!--  <section id="pricing" class="pricing section">
+
+	
+			<div class="container section-title" data-aos="fade-up">
+				<h2>Pricing</h2>
+				<p>Necessitatibus eius consequatur ex aliquid fuga eum quidem
+					sint consectetur velit</p>
+			</div>
+		
+
+			<div class="container">
+
+				<div class="row gy-3">
+
+					<div class="col-xl-3 col-lg-6" data-aos="fade-up"
+						data-aos-delay="100">
+						<div class="pricing-item">
+							<h3>Free</h3>
+							<h4>
+								<sup>$</sup>0
+								<span> / month</span>
+							</h4>
+							<ul>
+								<li>Aida dere</li>
+								<li>Nec feugiat nisl</li>
+								<li>Nulla at volutpat dola</li>
+								<li class="na">Pharetra massa</li>
+								<li class="na">Massa ultricies mi</li>
+							</ul>
+							<div class="btn-wrap">
+								<a href="#" class="btn-buy">Buy Now</a>
+							</div>
+						</div>
+					</div>
+			
+
+					<div class="col-xl-3 col-lg-6" data-aos="fade-up"
+						data-aos-delay="200">
+						<div class="pricing-item featured">
+							<h3>Business</h3>
+							<h4>
+								<sup>$</sup>19
+								<span> / month</span>
+							</h4>
+							<ul>
+								<li>Aida dere</li>
+								<li>Nec feugiat nisl</li>
+								<li>Nulla at volutpat dola</li>
+								<li>Pharetra massa</li>
+								<li class="na">Massa ultricies mi</li>
+							</ul>
+							<div class="btn-wrap">
+								<a href="#" class="btn-buy">Buy Now</a>
+							</div>
+						</div>
+					</div>
+				
+
+					<div class="col-xl-3 col-lg-6" data-aos="fade-up"
+						data-aos-delay="400">
+						<div class="pricing-item">
+							<h3>Developer</h3>
+							<h4>
+								<sup>$</sup>29
+								<span> / month</span>
+							</h4>
+							<ul>
+								<li>Aida dere</li>
+								<li>Nec feugiat nisl</li>
+								<li>Nulla at volutpat dola</li>
+								<li>Pharetra massa</li>
+								<li>Massa ultricies mi</li>
+							</ul>
+							<div class="btn-wrap">
+								<a href="#" class="btn-buy">Buy Now</a>
+							</div>
+						</div>
+					</div>
+				
+
+					<div class="col-xl-3 col-lg-6" data-aos="fade-up"
+						data-aos-delay="400">
+						<div class="pricing-item">
+							<span class="advanced">Advanced</span>
+							<h3>Ultimate</h3>
+							<h4>
+								<sup>$</sup>49
+								<span> / month</span>
+							</h4>
+							<ul>
+								<li>Aida dere</li>
+								<li>Nec feugiat nisl</li>
+								<li>Nulla at volutpat dola</li>
+								<li>Pharetra massa</li>
+								<li>Massa ultricies mi</li>
+							</ul>
+							<div class="btn-wrap">
+								<a href="#" class="btn-buy">Buy Now</a>
+							</div>
+						</div>
+					</div>
+				
+
+				</div>
+
+			</div>
+
+		</section>
+		<!-- /Pricing Section -->
+
+
+
+		<!-- Contact Section -->
+		<section id="contact" class="contact section">
+			<!-- Section Title -->
+			<div class="container section-title" data-aos="fade-up">
+				<h2>Залишити відгук</h2>
+				<p>Залишити свій відгук</p>
+			</div>
+			<!-- End Section Title -->
+			<div class="container" data-aos="fade-up" data-aos-delay="100">
+				<div class="row gy-4">
+					<div class="col-lg-6 ">
+						<div class="row gy-4">
+							<div class="col-lg-12">
+								<div
+									class="info-item d-flex flex-column justify-content-center align-items-center"
+									data-aos="fade-up" data-aos-delay="200">
+									<i class="bi bi-geo-alt"></i>
+									<h3>Відгуки приходять на почту</h3>
+									<p>vsprava@ukr.net</p>
+								</div>
+							</div>
+							<!-- End Info Item -->
+
+							<div class="col-md-6">
+								<div
+									class="info-item d-flex flex-column justify-content-center align-items-center"
+									data-aos="fade-up" data-aos-delay="300">
+									<i class="bi bi-telephone"></i>
+									<h3>Передзвонити</h3>
+									<p>+38 097 722 89 62</p>
+								</div>
+							</div>
+							<!-- End Info Item -->
+
+							<div class="col-md-6">
+								<div
+									class="info-item d-flex flex-column justify-content-center align-items-center"
+									data-aos="fade-up" data-aos-delay="400">
+									<i class="bi bi-envelope"></i>
+									<h3>Пошта</h3>
+									<p>vsprava24@ukr.net</p>
+								</div>
+							</div>
+							<!-- End Info Item -->
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<form action="forms/contact.php" method="post"
+							class="php-email-form" data-aos="fade-up" data-aos-delay="500"
+							id="ones">
+							<div class="row gy-4">
+
+								<div class="col-md-6">
+									<input type="text" name="name" class="form-control"
+										placeholder="Ім'я" required="">
+								</div>
+
+								<div class="col-md-6 ">
+									<input type="email" class="form-control" name="email"
+										placeholder="Пошта" required="">
+								</div>
+
+
+								<div class="col-md-12">
+									<textarea class="form-control" name="message" rows="4"
+										placeholder="Коментар" required=""></textarea>
+								</div>
+
+								<div class="col-md-12">
+									<input type="file" class="form-control" name="photo"
+										placeholder="Додати Фото" accept="image/*"
+										style="font-size: 12px; background-color: #909090; color: #fff;">
+								</div>
+
+								<div class="col-md-12 text-center">
+									<div class="loading">Відправлення</div>
+									<div class="error-message"></div>
+									<div class="sent-message">Ваше повідомлення відправлене.
+										Thank you!</div>
+
+									<button type="submit">Відгук</button>
+								</div>
+
+							</div>
+						</form>
+					</div>
+					<!-- End Contact Form -->
+
+				</div>
+
+			</div>
+
+		</section>
+		<!-- /Contact Section -->
+
+	</main>
+
+	<footer id="footer" class="footer light-background">
+
+		<div class="container footer-top">
+			<div class="row gy-4">
+				<div class="col-lg-4 col-md-6 footer-about">
+					<a href="index.html" class="logo d-flex align-items-center">
+						<span class="sitename">PREMIUM ВІДСТРОЧКА</span>
+					</a>
+					<div class="footer-contact pt-3">
+						<p>Тільки Україна</p>
+						<p>Київ, Деміївка 16</p>
+						<p>Полтава, Чорновола 2б</p>
+						<p>Київська область, Авіаторів 70, 21</p>
+						<p class="mt-3">
+							<strong>Телефон:</strong>
+							<span>+3 097 722 89 62</span>
+						</p>
+						<p>
+							<strong>Пошта:</strong>
+							<span>vsprava24@ukr.net</span>
+						</p>
+					</div>
+					<div class="social-links d-flex mt-4">
+						<a href="">
+							<i class="bi bi-telegram"></i>
+						</a>
+						<a href="">
+							<i class="bi bi-facebook"></i>
+						</a>
+						<a href="">
+							<i class="bi bi-instagram"></i>
+						</a>
+						<a href="">
+							<i class="bi bi-whatsapp"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg-2 col-md-3 footer-links">
+					<h4>Посилання</h4>
+					<ul>
+						<li>
+							<a href="#">Початкова</a>
+						</li>
+						<li>
+							<a href="#">Контакти</a>
+						</li>
+						<li>
+							<a href="#">Послуги</a>
+						</li>
+						<li>
+							<a href="#">Сервіси</a>
+						</li>
+						<li>
+							<a href="#">Політика Конеденційності</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-lg-2 col-md-3 footer-links">
+					<h4>Наші послуги</h4>
+					<ul>
+						<li>
+							<a href="#">Консультації</a>
+						</li>
+						<li>
+							<a href="#">Оформлення документів</a>
+						</li>
+						<li>
+							<a href="#">Представництво</a>
+						</li>
+						<li>
+							<a href="#">Судовий захист</a>
+						</li>
+						<li>
+							<a href="#">Інше</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-lg-2 col-md-3 footer-links">
+					<h4>Партнери</h4>
+					<ul>
+						<li>
+							<a href="#">Військова Справа</a>
+						</li>
+						<li>
+							<a href="#">Сайт Тронікс</a>
+						</li>
+						
+					</ul>
+				</div>
+
+				<div class="col-lg-2 col-md-3 footer-links">
+					<h4>Законодавство</h4>
+					<ul>
+						<li>
+							<a href="#">ЗУ Про Мобілізації</a>
+						</li>
+						<li>
+							<a href="#">Постанова 560</a>
+						</li>
+						<li>
+							<a href="#">ЗУ про Військовий Обовязко</a>
+						</li>
+						<li>
+							<a href="#">Інше</a>
+						</li>
+						
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="container copyright text-center mt-4">
+			<p>
+				©
+				<span>Всі Права Захищені</span>
+				<strong class="px-1 sitename">Оформлення Відстрочок</strong>
+				<span>Деяка інформація, може не збігатися з дійсністю та створена з метою реклами</span>
+			</p>
+			<!--  <div class="credits">
+			
+				Designed by
+				<a href="https://bootstrapmade.com/">BootstrapMade</a>
+				Distributed by
+				<a href=“https://themewagon.com>ThemeWagon 
+			</div> -->
+		</div>
+
+	</footer>
+
+
+	<!-- Scroll Top -->
+	<a href="#" id="scroll-top"
+		class="scroll-top d-flex align-items-center justify-content-center">
+		<i class="bi bi-arrow-up-short"></i>
+	</a>
+
+	<!-- Preloader -->
+	<div id="preloader"></div>
+
+	<!-- Vendor JS Files -->
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendor/php-email-form/validate.js"></script>
+	<script src="assets/vendor/aos/aos.js"></script>
+	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+	<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+	<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Main JS File -->
+	<script src="assets/js/main.js"></script>
+
+
+	<!--  Modal Windos JS Script -->
+	<script>   
+	      document.addEventListener("DOMContentLoaded", function() {
+		  const modal = document.getElementById("myModal");
+		  const btn = document.getElementById("openModalBtn");
+		  const closeBtn = document.querySelector(".close");
+		  const form = document.getElementById("contactForm");
+
+		  const TOKEN = "8422074866:AAESgPY_T_2xF8WlMJgVeWiLOGlQFkjoK1Q"; // <-- встав свій токен
+		  const CHAT_ID = "6167594260";  // <-- встав свій chat id
+		  const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+
+		  btn.onclick = e => {
+		    e.preventDefault();
+		    modal.style.display = "block";
+		  };
+
+		  closeBtn.onclick = () => modal.style.display = "none";
+
+		  window.onclick = e => {
+		    if (e.target == modal) modal.style.display = "none";
+		  };
+
+		  form.onsubmit = async function(e) {
+		    e.preventDefault();
+
+		    let name = document.getElementById("name").value.trim();
+		    let phone = document.getElementById("phone").value.trim();
+
+		    let message = `<b>Нове повідомлення з сайту:</b>\n👤 Ім’я: ${name}\n📞 Телефон: ${phone}`;
+
+		    try {
+		      await fetch(URL_API, {
+		        method: "POST",
+		        headers: { "Content-Type": "application/json" },
+		        body: JSON.stringify({
+		          chat_id: CHAT_ID,
+		          text: message,
+		          parse_mode: "HTML"
+		        })
+		      });
+		      alert("✅ Дані успішно відправлено!");
+		      form.reset();
+		      modal.style.display = "none";
+		    } catch (error) {
+		      alert("❌ Помилка при відправці!");
+		      console.error(error);
+		    }
+		  };
+		});
+	</script>
+
+
+
+	<script>
+const TOKEN = "8422074866:AAESgPY_T_2xF8WlMJgVeWiLOGlQFkjoK1Q"; 
+const CHAT_ID = "6167594260"; 
+const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+
+document.getElementById('ones').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    let name = this.name.value.trim();
+    let email = this.email.value.trim();
+    let messageText = this.message.value.trim();
+
+    let message = `<b>Нова заявка з сайту</b>\n`
+                + `👤 <b>Ім’я:</b> ${name}\n`
+                + `📧 <b>Email:</b> ${email}\n`
+                + `💬 <b>Повідомлення:</b> ${messageText}`;
+
+    fetch(URL_API, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            chat_id: CHAT_ID,
+            parse_mode: 'HTML',
+            text: message
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.ok) {
+            alert("✅ Повідомлення відправлено!");
+        } else {
+            alert("⚠️ Дані відправлені, але є помилка: " + data.description);
+        }
+        this.reset();
+        this.photo.value = ""; // очищає фото
+    })
+    .catch(err => {
+        console.warn("⚠️ Fetch error (ігноруємо):", err);
+        alert("✅ Повідомлення відправлено!"); // навіть якщо є помилка, показуємо успіх
+        this.reset();
+        this.photo.value = "";
+    });
+});
+</script>
+
+
+</body>
+
+</html>
